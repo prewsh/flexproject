@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 50px 0px 50px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flexContainer > div {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    display: flex;
+    margin-top: 5px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.flexContainer>div:nth-child(1){
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.flexContainer>div:nth-child(2){
+    width: 600px;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.navbar li:nth-child(1){
+    margin-right: 90px;
+    margin-left: 30px;
+}
+
+.navbar li:nth-child(2){
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.navbar li:nth-child(3){
+    margin-left: 50px;
+}
+
+.navbar li:nth-child(4){
+    margin-left: 50px;
+}
+
+.navbar li:nth-child(5){
+    margin-left: 50px;
+}
+
+.navbar li:nth-child(6){
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.div3Container > div{
+    background-color: springgreen;
+    width: 250px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+
+.mid_section{
+    width: 100%;
+}
+
+.mid_section div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer div {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid grey;
+    justify-content: space-evenly;
+}
+
+.navbar ul div{
+    display: flex;
+    justify-content: flex-start;
+}
