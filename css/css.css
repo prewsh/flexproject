@@ -5,9 +5,9 @@
 }
 
 .main_container{
-    display: flex;
+   /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;*/
     padding: 10px;
     width: 100%;
 }
@@ -30,26 +30,26 @@
     flex-wrap: wrap;
 }
 
-.flexContainer > div {
-    width: 200px;
-    height: 200px;
-    background-color: royalblue;
-    display: flex;
-    margin-top: 5px;
-    justify-content:space-around;
-    flex-wrap: wrap;
-}
-
 .flexContainer>div:nth-child(1){
     width: 700px;
     height: 400px;
-    background-color: aqua;
 }
 
 .flexContainer>div:nth-child(2){
     width: 600px;
     height: 400px;
-    background-color: whitesmoke;
+    background-color: transparent;
+}
+
+.picdiv h1{
+    position: relative;
+    bottom: 280px;
+    left: 4px;
+    font-size: 90px;
+    font-weight: 900;
+    color:white;
+    font-family: 'Righteous', cursive;
+    
 }
 
 .navbar li:nth-child(1){
@@ -60,6 +60,8 @@
 .navbar li:nth-child(2){
     margin-left: 40px;
     margin-right: 50px;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar li:nth-child(3){
@@ -79,12 +81,29 @@
     margin-right: 30px;
 }
 
+.searchbar{
+    border: 1px solid grey;
+    border-radius: 40px;
+}
+
+.searchbar mainsearch {
+    width: 100%;
+    height: 100%;
+}
+
 .div3Container > div{
+    display: flex;
+    flex-wrap: wrap;
     background-color: springgreen;
     width: 250px;
     margin-top: 7px;
     margin-bottom: 7px;
-    
+}
+
+.div3Container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mid_section{
@@ -111,12 +130,27 @@
 .navbar{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    border: 3px solid grey;
     justify-content: space-evenly;
 }
 
 .navbar ul div{
     display: flex;
     justify-content: flex-start;
+}
+
+.div3Container > div:nth-child(1){
+    background-color: rgba(188, 56, 65, 1);
+}
+
+.div3Container > div:nth-child(2){
+    background-color: pink;
+
+}
+
+.div3Container > div:nth-child(3){
+    background-color: skyblue;
+}
+
+.div3Container > div:nth-child(4){
+    background-color: purple;
 }
